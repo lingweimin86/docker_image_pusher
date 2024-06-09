@@ -1,5 +1,7 @@
-alpine
-python:alpine3.19
-kasmweb/nginx:1.25.3
+registry.k8s.io/kube-proxy:v1.30.0
+registry.k8s.io/etcd:3.5.12-0
+--alpine
+--python:alpine3.19
+--kasmweb/nginx:1.25.3
 --platform linux/arm64 cooderl/wewe-rss-sqlite:latest
 
